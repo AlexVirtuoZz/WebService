@@ -16,19 +16,22 @@
             <font color="red">Login is already taken</font><br>
             </c:if>
             <c:if test="${logPassError eq true }">
-            <font color="red">Login / password are incorrect</font><br>
+            <font color="red">Email / password are incorrect
+            </font><br>
             </c:if>
             <c:if test="${regSucceed eq true }">
             <font color="green">Registration succeed!</font><br>
             </c:if>
+            <h2>Registration</h2>
             <input type="hidden" name="command" value="REGISTER" />
             Enter your email: <p><input type="text" name = "login"></p>
             Enter your password: <p><input type="password" name = "password"></p>
-          <br/>
+          
    <button class="but" type="submit">Submit</button>    
    </form>          
    <button class="butto" onclick="location.href='index.jsp'">Back</button>
-      
+     
     </div>
+    
 </body>
 </html>

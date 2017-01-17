@@ -11,11 +11,12 @@
 	<div id = "loginForm">
 		<form action="Controller" method="get">
 			<c:if test="${logPassError eq true }">
-			<font color="red">Login / password are incorrect</font><br>
+			<font color="red">Email / password are incorrect</font><br>
 			</c:if>
+			<h2>Login</h2>
 		<input type="hidden" name="command" value="LOGIN" />
-        Email: <p><input type="text" name = "login"></p><br>
-        Password: <p><input type="password" name = "password"></p><br>
+        Email: <p><input type="text" name = "login"></p>
+        Password: <p><input type="password" name = "password"></p>
         <button class="but" type="submit">Submit</button>   
         </form>
         <button class="butt" onclick="location.href='registration.jsp'">Register</button>
