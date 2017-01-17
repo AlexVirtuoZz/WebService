@@ -1,0 +1,76 @@
+*{
+    font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+}
+body {
+    color: #404040;
+    background-color: whitesmoke;
+}
+#loginForm, #regForm {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px 20px 20px;
+    width: 200px;
+    background-color: darkgrey;
+
+    line-height: 1;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    margin: 5px;
+}
+ 
+
+.but{
+  display: inline-block;
+  color: grey;
+  font-weight: 10;
+  margin-right: 10%;
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+}
+.but:hover { background:  #373138; }
+.but:active { background: #373138; }
+
+.butt{
+  display: inline-block;
+  color: grey;
+  font-weight: 10;
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  position: absolute;
+  margin-left: -5%;
+}
+.butt:hover { background:  #373138; }
+.butt:active { background: #373138; }
+
+.butto{
+  display: inline-block;
+  color: grey;
+  font-weight: 10;
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -13.4%;
+}
+.butto:hover { background:  #373138; }
+.butto:active { background: #373138; }
