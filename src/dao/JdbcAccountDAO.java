@@ -8,7 +8,9 @@ import java.util.List;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import entities.Account;
-
+/*
+ * Class to provide work with database for Account entity
+ */
 public class JdbcAccountDAO implements AccountDAO{
 	
 	@Override

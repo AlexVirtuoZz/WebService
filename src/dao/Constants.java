@@ -8,6 +8,8 @@ public interface Constants {
 	String ACCOUNT_LOGIN = "login";
 	String ACCOUNT_PASSWORD = "password";
 	
-	String LOOKUP_SOURCE = "jdbc/accounts_db";
-
+	String DB_PATH = "jdbc:mysql://localhost:3306/accounts_db";
+	String DB_LOGIN = "root";
+	String DB_PASSWORD = "";
+	String DRIVER = "com.mysql.jdbc.Driver";
 }
